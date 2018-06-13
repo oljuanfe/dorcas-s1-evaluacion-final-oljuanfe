@@ -1,41 +1,41 @@
 .hero {
-height: 100vh;
-background-image: url(../images/cover.jpg);
-background-size: cover;
-background-position: top;
+  height: 100vh;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-position: top;
 
 }
 
 .botonfijo {
-width: 44px;
-height: 44px;
-background-color: $color-midtone;
-position: fixed;
-z-index: 5;display: flex;
-justify-content: center;
-align-items: center;
-// background-image: url(../images/ico-menu.svg);
+  width: 44px;
+  height: 44px;
+  background-color: $color-midtone;
+  position: fixed;
+  z-index: 5;display: flex;
+  justify-content: center;
+  align-items: center;
+  // background-image: url(../images/ico-menu.svg);
 }
 
 .contenidohero {
-text-align: center;
-transform: translateY(50vh);
-color: $color-secondary;
+  text-align: center;
+  transform: translateY(50vh);
+  color: $color-secondary;
 }
 
 .titulohero {
-margin: 0 auto;;
-width: 300px;
-font-family: $fontfamily-primary;
-font-size: 42px;
-font-weight: 700;
+  margin: 0 auto;;
+  width: 300px;
+  font-family: $fontfamily-primary;
+  font-size: 42px;
+  font-weight: 700;
 }
 
 .textohero{
-margin: 0;
-margin-top: 10px;
-margin-bottom: 45px;
-font-family: $font-family-secondary;
-font-size: 16px;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 45px;
+  font-family: $font-family-secondary;
+  font-size: 16px;
 }
 @import 'components/buttons'

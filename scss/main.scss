@@ -4,87 +4,87 @@
 @import 'layout/footer';
 
 * {
-box-sizing: border-box;
-border: 1px solid red;
+  box-sizing: border-box;
+  border: 1px solid red;
 }
 
 h2 {
-margin: 0;
+  margin: 0;
 }
 
 h3 {
-margin: 0;
+  margin: 0;
 }
 
 p{
-margin: 0;
+  margin: 0;
 }
 
 a {
-text-decoration: none;
+  text-decoration: none;
 }
 
 body {
-margin: 0;
-width: 100%;
+  margin: 0;
+  width: 100%;
 }
 
 @import 'layout/header';
 
 .container {
-margin-left: 15px;
-margin-right: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .parte1{
-text-align: left;
+  text-align: left;
 }
 
 .tips {
-font-family: $font-family-secondary;
-font-size: 14px;
-color: $color-light;
-padding-top: 30px;
+  font-family: $font-family-secondary;
+  font-size: 14px;
+  color: $color-light;
+  padding-top: 30px;
 }
 
 .titulo {
-font-family: $fontfamily-primary;
-font-size: 24px;
-font-weight: 700;
-color: black;
+  font-family: $fontfamily-primary;
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
 }
 
 .parrafparte1 {
-font-family: $font-family-secondary;
-padding-top: 15px;
-padding-bottom: 15px;
-font-size: 18px;
-color: #4a4a4a;
+  font-family: $font-family-secondary;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 18px;
+  color: #4a4a4a;
 }
 
 .botongo {
-margin-top: 15px;
-margin-bottom: 45px;
+  margin-top: 15px;
+  margin-bottom: 45px;
 }
 
 .parrafparte2 {
-font-family:$font-family-secondary;
-font-size: 18px;
-color: black;
+  font-family:$font-family-secondary;
+  font-size: 18px;
+  color: black;
 }
 
 .seccionrejilla {
-padding-top: 30px;
-padding-bottom: 60px;
-text-align: center;
-background-color: #eff9ff;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  text-align: center;
+  background-color: #eff9ff;
 }
 
 .titulorejilla {
-font-family: $fontfamily-primary;
-font-size: 24px;
-font-weight: bold;
-color: $color-black;
+  font-family: $fontfamily-primary;
+  font-size: 24px;
+  font-weight: bold;
+  color: $color-black;
 }
 
 .titulito {
