@@ -2,6 +2,8 @@
 height: 100vh;
 background-image: url(../images/cover.jpg);
 background-size: cover;
+background-position: top;
+
 }
 
 .botonfijo {
@@ -34,3 +36,4 @@ margin: 0;
 font-family: $font-family-secondary;
 font-size: 16px;
 }
+@import 'components/buttons'
