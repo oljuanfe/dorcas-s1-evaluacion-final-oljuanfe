@@ -156,8 +156,15 @@ body {
 
 .parrafparte1 {
   font-family: "Roboto", sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-size: 18px;
   color: #4a4a4a;
+}
+
+.botongo {
+  padding-top: 15px;
+  padding-bottom: 45px;
 }
 
 .titulito {
