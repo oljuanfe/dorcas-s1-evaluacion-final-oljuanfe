@@ -10,14 +10,4 @@ margin: 0;
 width: 100%;
 }
 
-.hero {
-background-image: url(../images/cover.jpg);
-}
-
-.botonfijo {
-width: 44px;
-height: 44px;
-background-color: $color-midtone;
-position: fixed;
-// background-image: url(../images/ico-menu.svg);
-}
+@import 'layout/header'
