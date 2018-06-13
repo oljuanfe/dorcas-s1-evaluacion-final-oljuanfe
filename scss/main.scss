@@ -1,10 +1,23 @@
 
 @import 'core/variables';
 @import 'components/buttons';
+@import 'layout/footer';
 
 * {
 box-sizing: border-box;
 border: 1px solid red;
+}
+
+h2 {
+margin: 0;
+}
+
+h3 {
+margin: 0;
+}
+
+p{
+margin: 0;
 }
 
 body {
@@ -18,6 +31,7 @@ width: 100%;
 font-family: $font-family-secondary;
 font-size: 14px;
 color: $color-light;
+padding-top: 30px;
 }
 
 .titulo {
@@ -31,4 +45,17 @@ color: black;
 font-family: $font-family-secondary;
 font-size: 18px;
 color: #4a4a4a;
+}
+
+.titulito {
+font-family: $fontfamily-primary;
+font-size: 18px;
+font-weight: 700;
+color: black;
+}
+
+.parrafparte2 {
+font-family:$font-family-secondary;
+font-size: 18px;
+color: black;
 }

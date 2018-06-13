@@ -1,4 +1,4 @@
-/*Colores*//*Tipografia*/.botonbajar {
+/*Colores*//*Tipografia*/.btnnav {
   margin: 0 auto;
   width: 45px;
   height: 45px;
@@ -16,10 +16,50 @@
   background-color: #ffffff;
 }
 
+.botonsubir {
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  position: relative;
+  -webkit-transform: translateY(-22.5px);
+  transform: translateY(-22.5px);
+}
+
+footer {
+  background-color: #304268;
+  text-align: center;
+}
+
+.pfooter {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.corazon {
+  color: red;
+}
+
+.textfooter2 {
+  padding-bottom: 30px;
+}
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border: 1px solid red;
+}
+
+h2 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
 
 body {
@@ -74,7 +114,7 @@ body {
   font-size: 16px;
 }
 
-.botonbajar {
+.btnnav {
   margin: 0 auto;
   width: 45px;
   height: 45px;
@@ -92,10 +132,19 @@ body {
   background-color: #ffffff;
 }
 
+.botonsubir {
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  position: relative;
+  -webkit-transform: translateY(-22.5px);
+  transform: translateY(-22.5px);
+}
+
 .tips {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: #8ccbea;
+  padding-top: 30px;
 }
 
 .titulo {
@@ -109,6 +158,19 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #4a4a4a;
+}
+
+.titulito {
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+}
+
+.parrafparte2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: black;
 }
 
 /*# sourceMappingURL=main.css.map */

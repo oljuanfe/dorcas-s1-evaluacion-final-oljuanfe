@@ -1,4 +1,4 @@
-.botonbajar {
+.btnnav {
 margin: 0 auto;
 width: 45px;
 height: 45px;
@@ -8,4 +8,10 @@ justify-content: center;
 align-items: center;
 color: $color-primary;
 background-color: $color-secondary;
+}
+
+.botonsubir{
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+position: relative;
+transform: translateY(-22.5px);
 }
