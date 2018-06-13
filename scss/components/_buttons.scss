@@ -15,3 +15,33 @@ box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 position: relative;
 transform: translateY(-22.5px);
 }
+
+.btndefault {
+height: 45px;
+border-radius: 22.5px;
+border: 2px solid $color-primary;
+font-family:$font-family-secondary;
+font-size: 20px;
+font-weight: 500;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.botongo {
+  width: 76px;
+}
+
+.textbtngo {
+color: $color-primary;
+}
+
+.botonrazones {
+width: 184px;
+color: $color-secondary;
+background-color: $color-primary;
+}
+
+.textbtnrazones {
+color: $color-secondary;
+}
