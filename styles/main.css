@@ -1,0 +1,23 @@
+/*Colores*//*Tipografia*/* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+}
+
+.hero {
+  background-image: url(../images/cover.jpg);
+}
+
+.botonfijo {
+  width: 44px;
+  height: 44px;
+  background-color: #0271bc;
+  position: fixed;
+}
+
+/*# sourceMappingURL=main.css.map */
