@@ -1,4 +1,4 @@
-footer{
+.footer{
 background-color: $color-dark;
 text-align: center;
 }
@@ -11,13 +11,14 @@ font-size: 14px;
 }
 
 .corazon{
-color: red;
+color: $color-primary;
 }
 
-.textfooter1 {
-// padding-top: 15px;
-}
-
-.textfooter2 {
+.pie {
+// padding-top: 38px;
 padding-bottom: 30px;
 }
+
+// .textfooter2 {
+// padding-bottom: 30px;
+// }

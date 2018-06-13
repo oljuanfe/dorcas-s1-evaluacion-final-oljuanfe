@@ -51,6 +51,7 @@
 }
 
 .botonrazones {
+  margin: 0 auto;
   width: 184px;
   color: #ffffff;
   background-color: #f26002;
@@ -60,7 +61,7 @@
   color: #ffffff;
 }
 
-footer {
+.footer {
   background-color: #304268;
   text-align: center;
 }
@@ -73,10 +74,10 @@ footer {
 }
 
 .corazon {
-  color: red;
+  color: #f26002;
 }
 
-.textfooter2 {
+.pie {
   padding-bottom: 30px;
 }
 
@@ -207,6 +208,7 @@ body {
 }
 
 .botonrazones {
+  margin: 0 auto;
   width: 184px;
   color: #ffffff;
   background-color: #f26002;
@@ -214,6 +216,15 @@ body {
 
 .textbtnrazones {
   color: #ffffff;
+}
+
+.container {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.parte1 {
+  text-align: left;
 }
 
 .tips {
@@ -243,17 +254,64 @@ body {
   margin-bottom: 45px;
 }
 
+.parrafparte2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+.seccionrejilla {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  text-align: center;
+  background-color: #eff9ff;
+}
+
+.titulorejilla {
+  font-family: "Roboto Slab", serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
 .titulito {
   font-family: "Roboto Slab", serif;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: bold;
   color: black;
 }
 
 .parrafparte2 {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
+  font-weight: normal;
   color: black;
+}
+
+.rejilla {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  margin-left: 55px;
+  margin-right: 55px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 45px;
+}
+
+.celda1 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.celda2 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.celda3 {
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
 
 /*# sourceMappingURL=main.css.map */

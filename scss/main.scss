@@ -31,6 +31,15 @@ width: 100%;
 
 @import 'layout/header';
 
+.container {
+margin-left: 15px;
+margin-right: 15px;
+}
+
+.parte1{
+text-align: left;
+}
+
 .tips {
 font-family: $font-family-secondary;
 font-size: 14px;
@@ -58,19 +67,63 @@ margin-top: 15px;
 margin-bottom: 45px;
 }
 
-.titulito {
-font-family: $fontfamily-primary;
-font-size: 18px;
-font-weight: 700;
-color: black;
-}
-
 .parrafparte2 {
 font-family:$font-family-secondary;
 font-size: 18px;
 color: black;
 }
 
-.titulorejilla {
+.seccionrejilla {
+padding-top: 30px;
+padding-bottom: 60px;
+text-align: center;
+background-color: #eff9ff;
+}
 
+.titulorejilla {
+font-family: $fontfamily-primary;
+font-size: 24px;
+font-weight: bold;
+color: $color-black;
+}
+
+.titulito {
+  font-family: $fontfamily-primary;
+  font-size: 18px;
+  font-weight: bold;
+  color: $color-black;
+}
+
+.parrafparte2 {
+  font-family: $font-family-secondary;
+  font-size: 18px;
+  font-weight: normal;
+  color: $color-black;
+}
+
+.rejilla {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  margin-left: 55px;
+  margin-right: 55px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 45px;
+
+}
+
+.celda1 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.celda2 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.celda3 {
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
