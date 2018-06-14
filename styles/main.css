@@ -255,12 +255,6 @@
   align-items: center;
 }
 
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  border: 1px solid red;
-}
-
 h2 {
   margin: 0;
 }
@@ -406,16 +400,6 @@ body {
   }
 }
 
-@media all and (min-width: 1200px) {
-  .container {
-    width: 730px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
 @media all and (min-width: 1280px) {
   .titulohero {
     font-size: 100px;
@@ -459,6 +443,14 @@ body {
     grid-column-gap: 26.2px;
   }
 
+  .container {
+    width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .tips {
     padding-top: 60px;
   }
@@ -468,7 +460,7 @@ body {
   }
 
   .gridcontainer {
-    width: 100%;
+    width: 1110px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

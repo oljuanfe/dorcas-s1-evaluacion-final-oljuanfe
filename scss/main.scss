@@ -6,10 +6,10 @@
 @import 'layout/grid';
 @import 'layout/footer';
 
-* {
-  box-sizing: border-box;
-  border: 1px solid red;
-}
+// * {
+//   box-sizing: border-box;
+//   border: 1px solid red;
+// }
 
 h2 {
   margin: 0;
@@ -39,7 +39,7 @@ body {
     padding-left: 39px;
     padding-right: 39px;
   }
-  @media all and (min-width:1200px) {
+  @media all and (min-width:1280px) {
     width: 730px;
     margin-left: auto;
     margin-right: auto;
@@ -80,7 +80,7 @@ body {
 
 @media all and (min-width:1280px) {
   .gridcontainer {
-    width: 100%;
+    width: 1110px;
     display: flex;
     flex-direction: column;
     align-items: center;
