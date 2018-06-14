@@ -1,3 +1,14 @@
+.botonfijo {
+  width: 44px;
+  height: 44px;
+  background-color: $color-midtone;
+  position: fixed;
+  z-index: 5;display: flex;
+  justify-content: center;
+  align-items: center;
+  // background-image: url(../images/ico-menu.svg);
+}
+
 .btnnav {
   margin: 0 auto;
   width: 45px;
@@ -30,6 +41,13 @@
 
 .botongo {
   width: 76px;
+  margin-top: 15px;
+  margin-bottom: 45px;
+  @media all and (min-width:768px) {
+    width: 91px;
+    margin-bottom: 45px;
+    font-size: 20px;
+  }
 }
 
 .textbtngo {

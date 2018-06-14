@@ -6,17 +6,6 @@
 
 }
 
-.botonfijo {
-  width: 44px;
-  height: 44px;
-  background-color: $color-midtone;
-  position: fixed;
-  z-index: 5;display: flex;
-  justify-content: center;
-  align-items: center;
-  // background-image: url(../images/ico-menu.svg);
-}
-
 .contenidohero {
   text-align: center;
   transform: translateY(50vh);
@@ -25,10 +14,14 @@
 
 .titulohero {
   margin: 0 auto;;
-  width: 300px;
+  width: 290px;
   font-family: $fontfamily-primary;
   font-size: 42px;
   font-weight: 700;
+  @media all and (min-width:768px) {
+    width: 690px;
+    font-size: 80px;
+  }
 }
 
 .textohero{
@@ -37,5 +30,9 @@
   margin-bottom: 45px;
   font-family: $font-family-secondary;
   font-size: 16px;
+  @media all and (min-width:768px) {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
 }
-@import 'components/buttons'
