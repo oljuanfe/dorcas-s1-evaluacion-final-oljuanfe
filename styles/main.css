@@ -159,7 +159,7 @@
 }
 
 .textbtnrazones {
-  padding: 15px 40px;
+  padding: 15px 10px;
   color: #ffffff;
   -webkit-transition: color ease 0.9s;
   transition: color ease 0.9s;
@@ -226,6 +226,7 @@
 }
 
 .footer {
+  height: 128px;
   background-color: #304268;
 }
 
