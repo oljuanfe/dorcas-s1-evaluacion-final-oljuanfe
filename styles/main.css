@@ -112,7 +112,6 @@
 
 .footer {
   background-color: #304268;
-  text-align: center;
 }
 
 .pfooter {
@@ -128,6 +127,19 @@
 
 .pie {
   padding-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 * {
@@ -245,8 +257,7 @@ body {
 @media all and (min-width: 768px) {
   .botongo {
     width: 91px;
-    margin-bottom: 45px;
-    font-size: 20px;
+    margin-bottom: 60px;
   }
 
   .titulohero {
@@ -309,6 +320,65 @@ body {
   .celda3 {
     grid-column: 3 / 4;
     grid-row: 1 / 2;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .botongo {
+    width: 160px;
+  }
+
+  .titulohero {
+    width: 730px;
+    font-size: 100px;
+  }
+
+  .textohero {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .container {
+    width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .tips {
+    font-size: 16px;
+    padding-top: 60px;
+  }
+
+  .titulo {
+    font-size: 32px;
+  }
+
+  .seccionrejilla {
+    padding-top: 60px;
+  }
+
+  .gridcontainer {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .titulorejilla {
+    font-size: 32px;
+  }
+
+  .rejilla {
+    grid-column-gap: 26.2px;
   }
 }
 

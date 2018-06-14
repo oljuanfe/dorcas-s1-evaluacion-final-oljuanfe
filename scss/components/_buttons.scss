@@ -43,10 +43,13 @@
   width: 76px;
   margin-top: 15px;
   margin-bottom: 45px;
+  // font-size: 20px;
   @media all and (min-width:768px) {
     width: 91px;
-    margin-bottom: 45px;
-    font-size: 20px;
+    margin-bottom: 60px;
+  }
+  @media all and (min-width:1200px) {
+    width: 160px;
   }
 }
 

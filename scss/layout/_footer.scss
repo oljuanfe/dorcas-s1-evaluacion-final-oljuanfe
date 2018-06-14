@@ -1,6 +1,5 @@
 .footer{
   background-color: $color-dark;
-  text-align: center;
 }
 
 .pfooter {
@@ -17,6 +16,10 @@
 .pie {
   // padding-top: 38px;
   padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 // .textfooter2 {
