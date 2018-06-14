@@ -53,6 +53,7 @@
   @media all and (min-width:1280px) {
     width: 160px;
   }
+
   &:hover {
     background-color: green;
     border: 3px solid darkgreen;
@@ -60,6 +61,7 @@
 }
 
 .textbtngo {
+  padding: 15px 40px;
   color: $color-primary;
   transition: color ease 0.9s;
   &:hover {
@@ -87,6 +89,7 @@
 }
 
 .textbtnrazones {
+  padding: 15px 40px;
   color: $color-secondary;
   transition: color ease 0.9s;
   &:hover {

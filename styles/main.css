@@ -133,6 +133,7 @@
 }
 
 .textbtngo {
+  padding: 15px 40px;
   color: #f26002;
   -webkit-transition: color ease 0.9s;
   transition: color ease 0.9s;
@@ -158,6 +159,7 @@
 }
 
 .textbtnrazones {
+  padding: 15px 40px;
   color: #ffffff;
   -webkit-transition: color ease 0.9s;
   transition: color ease 0.9s;
