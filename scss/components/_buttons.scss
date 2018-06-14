@@ -3,7 +3,10 @@
   height: 44px;
   background-color: $color-midtone;
   position: fixed;
-  z-index: 5;display: flex;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -47,13 +50,12 @@
     width: 91px;
     margin-bottom: 60px;
   }
-  @media all and (min-width:1200px) {
+  @media all and (min-width:1280px) {
     width: 160px;
   }
   &:hover {
     background-color: green;
     border: 3px solid darkgreen;
-
   }
 }
 
@@ -67,11 +69,27 @@
 
 .botonrazones {
   margin: 0 auto;
+  margin-bottom: 60px;
   width: 184px;
   color: $color-secondary;
   background-color: $color-primary;
+  transition: background-color ease 0.9s, border ease 0.9s;
+  @media all and (min-width:768px) {
+    width: 210px;
+  }
+  @media all and (min-width:1280px) {
+    width: 255px;
+  }
+  &:hover {
+    background-color: green;
+    border: 3px solid darkgreen;
+  }
 }
 
 .textbtnrazones {
   color: $color-secondary;
+  transition: color ease 0.9s;
+  &:hover {
+    color: $color-black;
+  }
 }
