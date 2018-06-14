@@ -1,0 +1,101 @@
+/* Main*/
+/*header*/
+.contenidohero {
+  color: $color-secondary;
+}
+
+.titulohero {
+  font-family: $fontfamily-primary;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 55px;
+  @media all and (min-width:768px) {
+    font-size: 80px;
+    line-height: 106px;
+  }
+  @media all and (min-width:1200px) {
+    font-size: 100px;
+    line-height: 132px;
+  }
+}
+
+.textohero{
+  font-family: $font-family-secondary;
+  font-size: 16px;
+  @media all and (min-width:768px) {
+    font-size: 24px;
+  }
+}
+/*Parte 1*/
+.tips {
+  font-family: $font-family-secondary;
+  font-size: 14px;
+  line-height: 30px;
+  color: $color-light;
+  @media all and (min-width:1200px) {
+    font-size: 16px;
+  }
+}
+
+.titulo {
+  font-family: $fontfamily-primary;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  color: $color-black;
+  @media all and (min-width:768px) {
+    font-size: 26px;
+    line-height: 45px;
+  }
+  @media all and (min-width:1200px) {
+    font-size: 32px;
+  }
+}
+
+.parrafparte1 {
+  font-family: $font-family-secondary;
+  font-size: 18px;
+  line-height: 30px;
+  color: #4a4a4a;
+  @media all and (min-width:768px) {
+    font-size: 20px;
+  }
+}
+/*Seccion Rejilla*/
+
+.titulorejilla {
+  font-family: $fontfamily-primary;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+  color: $color-black;
+  @media all and (min-width:768px) {
+    font-size: 26px;
+    line-height: 45px;
+  }
+  @media all and (min-width:1200px) {
+    font-size: 32px;
+  }
+}
+
+.titulito {
+  font-family: $fontfamily-primary;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  color: $color-black;
+  @media all and (min-width:768px) {
+    font-size: 24px;
+  }
+}
+
+.parrafparte2 {
+  font-family: $font-family-secondary;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+  color: $color-black;
+  @media all and (min-width:768px) {
+    font-size: 20px;
+  }
+}

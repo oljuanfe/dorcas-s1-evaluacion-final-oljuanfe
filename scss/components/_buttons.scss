@@ -6,7 +6,6 @@
   z-index: 5;display: flex;
   justify-content: center;
   align-items: center;
-  // background-image: url(../images/ico-menu.svg);
 }
 
 .btnnav {
@@ -43,7 +42,7 @@
   width: 76px;
   margin-top: 15px;
   margin-bottom: 45px;
-  // font-size: 20px;
+  transition: background-color ease 0.9s, border ease 0.9s;
   @media all and (min-width:768px) {
     width: 91px;
     margin-bottom: 60px;
@@ -51,10 +50,19 @@
   @media all and (min-width:1200px) {
     width: 160px;
   }
+  &:hover {
+    background-color: green;
+    border: 3px solid darkgreen;
+
+  }
 }
 
 .textbtngo {
   color: $color-primary;
+  transition: color ease 0.9s;
+  &:hover {
+    color: $color-black;
+  }
 }
 
 .botonrazones {

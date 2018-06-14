@@ -1,7 +1,9 @@
 
 @import 'core/variables';
+@import 'components/typography';
 @import 'components/buttons';
 @import 'layout/header';
+@import 'layout/grid';
 @import 'layout/footer';
 
 * {
@@ -30,8 +32,6 @@ body {
   width: 100%;
 }
 
-// @import 'layout/header';
-
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -53,49 +53,20 @@ body {
 }
 
 .tips {
-  font-family: $font-family-secondary;
-  font-size: 14px;
-  color: $color-light;
   padding-top: 30px;
   @media all and (min-width:1200px) {
-    font-size: 16px;
     padding-top: 60px;
   }
 }
 
-.titulo {
-  font-family: $fontfamily-primary;
-  font-size: 24px;
-  font-weight: 700;
-  color: $color-black;
-  @media all and (min-width:768px) {
-    font-size: 26px;
-  }
-  @media all and (min-width:1200px) {
-    font-size: 32px;
-  }
-}
 
 .parrafparte1 {
   padding-top: 15px;
   padding-bottom: 15px;
-  font-family: $font-family-secondary;
-  font-size: 18px;
-  color: #4a4a4a;
   @media all and (min-width:768px) {
     padding-top: 30px;
-    font-size: 20px;
   }
 }
-
-// .botongo {
-//   margin-top: 15px;
-//   margin-bottom: 45px;
-//   @media all and (min-width:768px) {
-//     margin-bottom: 45px;
-//     font-size: 20px;
-//   }
-// }
 
 .seccionrejilla {
   padding-top: 30px;
@@ -116,85 +87,14 @@ body {
   }
 }
 
-.titulorejilla {
-  font-family: $fontfamily-primary;
-  font-size: 24px;
-  font-weight: bold;
-  color: $color-black;
-  @media all and (min-width:768px) {
-    font-size: 26px;
-  }
-  @media all and (min-width:1200px) {
-    font-size: 32px;
-  }
-}
-
-.titulito {
-  font-family: $fontfamily-primary;
-  font-size: 18px;
-  font-weight: bold;
-  color: $color-black;
-  @media all and (min-width:768px) {
-    font-size: 24px;
-  }
-}
-
-.parrafparte2 {
-  font-family: $font-family-secondary;
-  font-size: 18px;
-  font-weight: normal;
-  color: $color-black;
-  @media all and (min-width:768px) {
-    font-size: 20px;
-  }
-}
-
 .rejilla {
   margin-top: 45px;
   margin-bottom: 45px;
   margin-left: 55px;
   margin-right: 55px;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-row-gap: 45px;
   @media all and (min-width:768px) {
     margin-bottom: 60px;
     margin-left: 0;
     margin-right: 0;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 0 0;
-    grid-column-gap: 27.7px;
-    grid-row-gap: 0;
-  }
-  @media all and (min-width:1200px) {
-    grid-column-gap: 26.2px;
-  }
-}
-
-.celda1 {
-  grid-row-start: 1;
-  grid-row-end: 2;
-  @media all and (min-width:768px) {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-  }
-}
-
-.celda2 {
-  grid-row-start: 2;
-  grid-row-end: 3;
-  @media all and (min-width:768px) {
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-  }
-}
-
-.celda3 {
-  grid-row-start: 3;
-  grid-row-end: 4;
-  @media all and (min-width:768px) {
-    grid-column: 3 / 4;
-    grid-row: 1 / 2;
   }
 }

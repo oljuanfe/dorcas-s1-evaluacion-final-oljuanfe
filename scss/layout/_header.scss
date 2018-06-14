@@ -9,22 +9,22 @@
 .contenidohero {
   text-align: center;
   transform: translateY(50vh);
-  color: $color-secondary;
+  // color: $color-secondary;
 }
 
 .titulohero {
   margin: 0 auto;;
   width: 290px;
-  font-family: $fontfamily-primary;
-  font-size: 42px;
-  font-weight: 700;
+  // font-family: $fontfamily-primary;
+  // font-size: 42px;
+  // font-weight: 700;
   @media all and (min-width:768px) {
     width: 690px;
-    font-size: 80px;
+    // font-size: 80px;
   }
   @media all and (min-width:1200px) {
     width: 730px;
-    font-size: 100px;
+    // font-size: 100px;
   }
 }
 
@@ -32,12 +32,12 @@
   margin: 0;
   margin-top: 10px;
   margin-bottom: 45px;
-  font-family: $font-family-secondary;
-  font-size: 16px;
+  // font-family: $font-family-secondary;
+  // font-size: 16px;
   @media all and (min-width:768px) {
     margin-top: 20px;
     margin-bottom: 30px;
-    font-size: 24px;
+    // font-size: 24px;
   }
   @media all and (min-width:1200px) {
     margin-top: 0px;
