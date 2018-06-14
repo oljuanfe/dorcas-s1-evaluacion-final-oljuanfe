@@ -182,6 +182,15 @@ a {
   color: black;
 }
 
+.animation:hover {
+  -webkit-animation-name: animation;
+  animation-name: animation;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
 .hero {
   height: 100vh;
   background-image: url(../images/cover.jpg);
@@ -480,6 +489,30 @@ body {
 
   .rejilla {
     grid-column-gap: 26.2px;
+  }
+}
+
+@-webkit-keyframes animation {
+  from {
+    -webkit-transform: rotate(0) translateY(-22.5px);
+    transform: rotate(0) translateY(-22.5px);
+  }
+
+  to {
+    -webkit-transform: rotate(359deg) translateY(-22.5px);
+    transform: rotate(359deg) translateY(-22.5px);
+  }
+}
+
+@keyframes animation {
+  from {
+    -webkit-transform: rotate(0) translateY(-22.5px);
+    transform: rotate(0) translateY(-22.5px);
+  }
+
+  to {
+    -webkit-transform: rotate(359deg) translateY(-22.5px);
+    transform: rotate(359deg) translateY(-22.5px);
   }
 }
 

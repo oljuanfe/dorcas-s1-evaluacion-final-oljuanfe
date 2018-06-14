@@ -1,0 +1,14 @@
+@keyframes animation {
+    from {
+        transform:  rotate(0) translateY(-22.5px);
+    }
+    to {
+        transform: rotate(359deg) translateY(-22.5px);
+    }
+}
+
+.animation:hover {
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
