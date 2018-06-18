@@ -23,6 +23,19 @@ body {
   }
 }
 
+.anadido {
+  padding: 0 10px;
+background-color: $color-primary;
+color: $color-secondary;
+display: flex;
+align-items: center;
+justify-content: space-between;
+@media all and (min-width:768px) {
+  background-color: $color-light;
+}
+
+}
+
 .parte1{
   text-align: left;
 }

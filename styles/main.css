@@ -246,6 +246,21 @@ body {
   padding-right: 15px;
 }
 
+.anadido {
+  padding: 0 10px;
+  background-color: #f26002;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
 .parte1 {
   text-align: left;
 }
@@ -386,6 +401,10 @@ body {
   .container {
     padding-left: 39px;
     padding-right: 39px;
+  }
+
+  .anadido {
+    background-color: #8ccbea;
   }
 
   .parrafparte1 {
